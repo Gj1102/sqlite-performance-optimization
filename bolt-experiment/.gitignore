@@ -1,0 +1,6 @@
+﻿build/
+results/input.db
+results/perf.data*
+results/profile.fdata
+results/reference.txt
+__pycache__/

@@ -1,0 +1,333 @@
+{
+  "environment": {
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+    "sqlite": "3.51.0",
+    "logical_cpus": 20,
+    "seed": 20261112,
+    "rows": 100000,
+    "queries": 200,
+    "write_rows": 500
+  },
+  "records": [
+    {
+      "workload": "query",
+      "variant": "scan",
+      "repeat": 1,
+      "seconds": 0.9236632999964058,
+      "operations": 200,
+      "throughput": 216.52911834948756,
+      "cpu_percent": 84.58168685526857,
+      "checksum": "bba5dc725b9557036d510b8de0442d7d7a7c4694ea6a0d94660c6697bd533672",
+      "plan": [
+        [
+          3,
+          0,
+          216,
+          "SCAN orders"
+        ]
+      ]
+    },
+    {
+      "workload": "query",
+      "variant": "scan",
+      "repeat": 2,
+      "seconds": 0.9273061999992933,
+      "operations": 200,
+      "throughput": 215.67848893941658,
+      "cpu_percent": 79.19444515744203,
+      "checksum": "bba5dc725b9557036d510b8de0442d7d7a7c4694ea6a0d94660c6697bd533672",
+      "plan": [
+        [
+          3,
+          0,
+          216,
+          "SCAN orders"
+        ]
+      ]
+    },
+    {
+      "workload": "query",
+      "variant": "scan",
+      "repeat": 3,
+      "seconds": 0.9655404000077397,
+      "operations": 200,
+      "throughput": 207.13788879097842,
+      "cpu_percent": 76.0584435404374,
+      "checksum": "bba5dc725b9557036d510b8de0442d7d7a7c4694ea6a0d94660c6697bd533672",
+      "plan": [
+        [
+          3,
+          0,
+          216,
+          "SCAN orders"
+        ]
+      ]
+    },
+    {
+      "workload": "query",
+      "variant": "scan",
+      "repeat": 4,
+      "seconds": 0.952322400000412,
+      "operations": 200,
+      "throughput": 210.01291159371394,
+      "cpu_percent": 80.3955677194686,
+      "checksum": "bba5dc725b9557036d510b8de0442d7d7a7c4694ea6a0d94660c6697bd533672",
+      "plan": [
+        [
+          3,
+          0,
+          216,
+          "SCAN orders"
+        ]
+      ]
+    },
+    {
+      "workload": "query",
+      "variant": "scan",
+      "repeat": 5,
+      "seconds": 0.850532700002077,
+      "operations": 200,
+      "throughput": 235.14674979517142,
+      "cpu_percent": 78.99461125931539,
+      "checksum": "bba5dc725b9557036d510b8de0442d7d7a7c4694ea6a0d94660c6697bd533672",
+      "plan": [
+        [
+          3,
+          0,
+          216,
+          "SCAN orders"
+        ]
+      ]
+    },
+    {
+      "workload": "query",
+      "variant": "index",
+      "repeat": 1,
+      "seconds": 0.04672800000116695,
+      "operations": 200,
+      "throughput": 4280.08902574485,
+      "cpu_percent": 33.43819551363164,
+      "checksum": "bba5dc725b9557036d510b8de0442d7d7a7c4694ea6a0d94660c6697bd533672",
+      "plan": [
+        [
+          4,
+          0,
+          62,
+          "SEARCH orders USING INDEX idx_orders (customer_id=? AND status=?)"
+        ]
+      ]
+    },
+    {
+      "workload": "query",
+      "variant": "index",
+      "repeat": 2,
+      "seconds": 0.03388020000420511,
+      "operations": 200,
+      "throughput": 5903.152873217296,
+      "cpu_percent": 92.23676364402024,
+      "checksum": "bba5dc725b9557036d510b8de0442d7d7a7c4694ea6a0d94660c6697bd533672",
+      "plan": [
+        [
+          4,
+          0,
+          62,
+          "SEARCH orders USING INDEX idx_orders (customer_id=? AND status=?)"
+        ]
+      ]
+    },
+    {
+      "workload": "query",
+      "variant": "index",
+      "repeat": 3,
+      "seconds": 0.036343600004329346,
+      "operations": 200,
+      "throughput": 5503.032170070534,
+      "cpu_percent": 85.9848776573521,
+      "checksum": "bba5dc725b9557036d510b8de0442d7d7a7c4694ea6a0d94660c6697bd533672",
+      "plan": [
+        [
+          4,
+          0,
+          62,
+          "SEARCH orders USING INDEX idx_orders (customer_id=? AND status=?)"
+        ]
+      ]
+    },
+    {
+      "workload": "query",
+      "variant": "index",
+      "repeat": 4,
+      "seconds": 0.03653830000257585,
+      "operations": 200,
+      "throughput": 5473.708409693405,
+      "cpu_percent": 85.52669390145945,
+      "checksum": "bba5dc725b9557036d510b8de0442d7d7a7c4694ea6a0d94660c6697bd533672",
+      "plan": [
+        [
+          4,
+          0,
+          62,
+          "SEARCH orders USING INDEX idx_orders (customer_id=? AND status=?)"
+        ]
+      ]
+    },
+    {
+      "workload": "query",
+      "variant": "index",
+      "repeat": 5,
+      "seconds": 0.04173050000099465,
+      "operations": 200,
+      "throughput": 4792.657648368291,
+      "cpu_percent": 112.32791363363181,
+      "checksum": "bba5dc725b9557036d510b8de0442d7d7a7c4694ea6a0d94660c6697bd533672",
+      "plan": [
+        [
+          4,
+          0,
+          62,
+          "SEARCH orders USING INDEX idx_orders (customer_id=? AND status=?)"
+        ]
+      ]
+    },
+    {
+      "workload": "write",
+      "variant": "single",
+      "repeat": 1,
+      "seconds": 2.1334327000076883,
+      "operations": 500,
+      "throughput": 234.3640837595665,
+      "cpu_percent": 48.33759227541059,
+      "verified_count": 500
+    },
+    {
+      "workload": "write",
+      "variant": "single",
+      "repeat": 2,
+      "seconds": 2.1022261999896728,
+      "operations": 500,
+      "throughput": 237.84310175682154,
+      "cpu_percent": 52.771438202294775,
+      "verified_count": 500
+    },
+    {
+      "workload": "write",
+      "variant": "single",
+      "repeat": 3,
+      "seconds": 2.081794500001706,
+      "operations": 500,
+      "throughput": 240.17740463796508,
+      "cpu_percent": 52.53880726455486,
+      "verified_count": 500
+    },
+    {
+      "workload": "write",
+      "variant": "single",
+      "repeat": 4,
+      "seconds": 2.187067399994703,
+      "operations": 500,
+      "throughput": 228.61663979866876,
+      "cpu_percent": 55.010878951554666,
+      "verified_count": 500
+    },
+    {
+      "workload": "write",
+      "variant": "single",
+      "repeat": 5,
+      "seconds": 2.1478734999982407,
+      "operations": 500,
+      "throughput": 232.78838348739325,
+      "cpu_percent": 54.559777379857785,
+      "verified_count": 500
+    },
+    {
+      "workload": "write",
+      "variant": "batch",
+      "repeat": 1,
+      "seconds": 0.00420329999178648,
+      "operations": 500,
+      "throughput": 118954.15530108067,
+      "cpu_percent": 0.0,
+      "verified_count": 500
+    },
+    {
+      "workload": "write",
+      "variant": "batch",
+      "repeat": 2,
+      "seconds": 0.004107000000658445,
+      "operations": 500,
+      "throughput": 121743.36496709002,
+      "cpu_percent": 380.4480155221563,
+      "verified_count": 500
+    },
+    {
+      "workload": "write",
+      "variant": "batch",
+      "repeat": 3,
+      "seconds": 0.0056970000005094334,
+      "operations": 500,
+      "throughput": 87765.4906012444,
+      "cpu_percent": 0.0,
+      "verified_count": 500
+    },
+    {
+      "workload": "write",
+      "variant": "batch",
+      "repeat": 4,
+      "seconds": 0.004129399996600114,
+      "operations": 500,
+      "throughput": 121082.96614802835,
+      "cpu_percent": 0.0,
+      "verified_count": 500
+    },
+    {
+      "workload": "write",
+      "variant": "batch",
+      "repeat": 5,
+      "seconds": 0.004890899988822639,
+      "operations": 500,
+      "throughput": 102230.67352484597,
+      "cpu_percent": 0.0,
+      "verified_count": 500
+    }
+  ],
+  "summary": [
+    {
+      "workload": "query",
+      "variant": "scan",
+      "mean_seconds": 0.9238730000011856,
+      "stdev_seconds": 0.04454259485004331,
+      "throughput": 216.47997073163017,
+      "cpu_percent": 79.8449509063864,
+      "speedup": 1.0
+    },
+    {
+      "workload": "query",
+      "variant": "index",
+      "mean_seconds": 0.03904412000265438,
+      "stdev_seconds": 0.005159860977089293,
+      "throughput": 5122.410237095962,
+      "cpu_percent": 81.90288887001905,
+      "speedup": 23.662282564913152
+    },
+    {
+      "workload": "write",
+      "variant": "single",
+      "mean_seconds": 2.1304788599984024,
+      "stdev_seconds": 0.040871570915167105,
+      "throughput": 234.6890219790188,
+      "cpu_percent": 52.643698814734535,
+      "speedup": 1.0
+    },
+    {
+      "workload": "write",
+      "variant": "batch",
+      "mean_seconds": 0.004605519995675422,
+      "stdev_seconds": 0.0006909710037188207,
+      "throughput": 108565.37382738527,
+      "cpu_percent": 76.08960310443126,
+      "speedup": 462.59246773413633
+    }
+  ]
+}

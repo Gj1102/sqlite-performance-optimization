@@ -1,0 +1,292 @@
+{
+  "environment": {
+    "platform": "Windows-11-10.0.26300-SP0",
+    "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+    "sqlite": "3.51.0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "seed": 1729,
+    "rows": 300,
+    "repeats": 5
+  },
+  "records": [
+    {
+      "repeat": 1,
+      "transaction": "batch",
+      "journal": "WAL",
+      "seconds": 0.009231899995938875,
+      "operations": 300,
+      "throughput": 32496.019251938433,
+      "cpu_seconds": 0.0,
+      "cpu_percent": 0.0,
+      "sha256": "74163cc940decc31f32e90ceb92e29270d4aab9b3e6f3569f3225526eb997c9b",
+      "synchronous": "FULL"
+    },
+    {
+      "repeat": 1,
+      "transaction": "batch",
+      "journal": "DELETE",
+      "seconds": 0.007509100003517233,
+      "operations": 300,
+      "throughput": 39951.52546370153,
+      "cpu_seconds": 0.0,
+      "cpu_percent": 0.0,
+      "sha256": "74163cc940decc31f32e90ceb92e29270d4aab9b3e6f3569f3225526eb997c9b",
+      "synchronous": "FULL"
+    },
+    {
+      "repeat": 1,
+      "transaction": "single",
+      "journal": "WAL",
+      "seconds": 0.3044086000008974,
+      "operations": 300,
+      "throughput": 985.5174919470593,
+      "cpu_seconds": 0.109375,
+      "cpu_percent": 35.93032522723654,
+      "sha256": "74163cc940decc31f32e90ceb92e29270d4aab9b3e6f3569f3225526eb997c9b",
+      "synchronous": "FULL"
+    },
+    {
+      "repeat": 1,
+      "transaction": "single",
+      "journal": "DELETE",
+      "seconds": 1.9495410000090487,
+      "operations": 300,
+      "throughput": 153.88237538918523,
+      "cpu_seconds": 0.859375,
+      "cpu_percent": 44.08088878336035,
+      "sha256": "74163cc940decc31f32e90ceb92e29270d4aab9b3e6f3569f3225526eb997c9b",
+      "synchronous": "FULL"
+    },
+    {
+      "repeat": 2,
+      "transaction": "single",
+      "journal": "DELETE",
+      "seconds": 2.1484756999998353,
+      "operations": 300,
+      "throughput": 139.63388089519606,
+      "cpu_seconds": 0.8125,
+      "cpu_percent": 37.8175094091156,
+      "sha256": "74163cc940decc31f32e90ceb92e29270d4aab9b3e6f3569f3225526eb997c9b",
+      "synchronous": "FULL"
+    },
+    {
+      "repeat": 2,
+      "transaction": "batch",
+      "journal": "WAL",
+      "seconds": 0.0036262999929022044,
+      "operations": 300,
+      "throughput": 82728.95253762601,
+      "cpu_seconds": 0.0,
+      "cpu_percent": 0.0,
+      "sha256": "74163cc940decc31f32e90ceb92e29270d4aab9b3e6f3569f3225526eb997c9b",
+      "synchronous": "FULL"
+    },
+    {
+      "repeat": 2,
+      "transaction": "single",
+      "journal": "WAL",
+      "seconds": 0.3741143999941414,
+      "operations": 300,
+      "throughput": 801.8937522979547,
+      "cpu_seconds": 0.171875,
+      "cpu_percent": 45.94182955873699,
+      "sha256": "74163cc940decc31f32e90ceb92e29270d4aab9b3e6f3569f3225526eb997c9b",
+      "synchronous": "FULL"
+    },
+    {
+      "repeat": 2,
+      "transaction": "batch",
+      "journal": "DELETE",
+      "seconds": 0.005768100003479049,
+      "operations": 300,
+      "throughput": 52010.19396665349,
+      "cpu_seconds": 0.0,
+      "cpu_percent": 0.0,
+      "sha256": "74163cc940decc31f32e90ceb92e29270d4aab9b3e6f3569f3225526eb997c9b",
+      "synchronous": "FULL"
+    },
+    {
+      "repeat": 3,
+      "transaction": "single",
+      "journal": "DELETE",
+      "seconds": 1.646844599992619,
+      "operations": 300,
+      "throughput": 182.1665505059461,
+      "cpu_seconds": 0.828125,
+      "cpu_percent": 50.28555821257887,
+      "sha256": "74163cc940decc31f32e90ceb92e29270d4aab9b3e6f3569f3225526eb997c9b",
+      "synchronous": "FULL"
+    },
+    {
+      "repeat": 3,
+      "transaction": "single",
+      "journal": "WAL",
+      "seconds": 0.5158325999946101,
+      "operations": 300,
+      "throughput": 581.5840255213313,
+      "cpu_seconds": 0.078125,
+      "cpu_percent": 15.145417331284671,
+      "sha256": "74163cc940decc31f32e90ceb92e29270d4aab9b3e6f3569f3225526eb997c9b",
+      "synchronous": "FULL"
+    },
+    {
+      "repeat": 3,
+      "transaction": "batch",
+      "journal": "DELETE",
+      "seconds": 0.005406399999628775,
+      "operations": 300,
+      "throughput": 55489.789882472476,
+      "cpu_seconds": 0.0,
+      "cpu_percent": 0.0,
+      "sha256": "74163cc940decc31f32e90ceb92e29270d4aab9b3e6f3569f3225526eb997c9b",
+      "synchronous": "FULL"
+    },
+    {
+      "repeat": 3,
+      "transaction": "batch",
+      "journal": "WAL",
+      "seconds": 0.006984699997701682,
+      "operations": 300,
+      "throughput": 42951.02153259483,
+      "cpu_seconds": 0.0,
+      "cpu_percent": 0.0,
+      "sha256": "74163cc940decc31f32e90ceb92e29270d4aab9b3e6f3569f3225526eb997c9b",
+      "synchronous": "FULL"
+    },
+    {
+      "repeat": 4,
+      "transaction": "single",
+      "journal": "WAL",
+      "seconds": 0.46016670000972226,
+      "operations": 300,
+      "throughput": 651.9376564920098,
+      "cpu_seconds": 0.125,
+      "cpu_percent": 27.164069020500406,
+      "sha256": "74163cc940decc31f32e90ceb92e29270d4aab9b3e6f3569f3225526eb997c9b",
+      "synchronous": "FULL"
+    },
+    {
+      "repeat": 4,
+      "transaction": "batch",
+      "journal": "WAL",
+      "seconds": 0.005135900006280281,
+      "operations": 300,
+      "throughput": 58412.35219399794,
+      "cpu_seconds": 0.0,
+      "cpu_percent": 0.0,
+      "sha256": "74163cc940decc31f32e90ceb92e29270d4aab9b3e6f3569f3225526eb997c9b",
+      "synchronous": "FULL"
+    },
+    {
+      "repeat": 4,
+      "transaction": "single",
+      "journal": "DELETE",
+      "seconds": 1.9849401999963447,
+      "operations": 300,
+      "throughput": 151.1380544363767,
+      "cpu_seconds": 0.703125,
+      "cpu_percent": 35.42298150852579,
+      "sha256": "74163cc940decc31f32e90ceb92e29270d4aab9b3e6f3569f3225526eb997c9b",
+      "synchronous": "FULL"
+    },
+    {
+      "repeat": 4,
+      "transaction": "batch",
+      "journal": "DELETE",
+      "seconds": 0.007089400009135716,
+      "operations": 300,
+      "throughput": 42316.69811456635,
+      "cpu_seconds": 0.0,
+      "cpu_percent": 0.0,
+      "sha256": "74163cc940decc31f32e90ceb92e29270d4aab9b3e6f3569f3225526eb997c9b",
+      "synchronous": "FULL"
+    },
+    {
+      "repeat": 5,
+      "transaction": "single",
+      "journal": "DELETE",
+      "seconds": 1.7274810999952024,
+      "operations": 300,
+      "throughput": 173.6632603394811,
+      "cpu_seconds": 0.75,
+      "cpu_percent": 43.415815084870275,
+      "sha256": "74163cc940decc31f32e90ceb92e29270d4aab9b3e6f3569f3225526eb997c9b",
+      "synchronous": "FULL"
+    },
+    {
+      "repeat": 5,
+      "transaction": "batch",
+      "journal": "WAL",
+      "seconds": 0.0034441999887349084,
+      "operations": 300,
+      "throughput": 87102.95597852122,
+      "cpu_seconds": 0.0,
+      "cpu_percent": 0.0,
+      "sha256": "74163cc940decc31f32e90ceb92e29270d4aab9b3e6f3569f3225526eb997c9b",
+      "synchronous": "FULL"
+    },
+    {
+      "repeat": 5,
+      "transaction": "single",
+      "journal": "WAL",
+      "seconds": 0.28569689999858383,
+      "operations": 300,
+      "throughput": 1050.0638963933002,
+      "cpu_seconds": 0.078125,
+      "cpu_percent": 27.345413968575528,
+      "sha256": "74163cc940decc31f32e90ceb92e29270d4aab9b3e6f3569f3225526eb997c9b",
+      "synchronous": "FULL"
+    },
+    {
+      "repeat": 5,
+      "transaction": "batch",
+      "journal": "DELETE",
+      "seconds": 0.006770799998776056,
+      "operations": 300,
+      "throughput": 44307.91044695315,
+      "cpu_seconds": 0.0,
+      "cpu_percent": 0.0,
+      "sha256": "74163cc940decc31f32e90ceb92e29270d4aab9b3e6f3569f3225526eb997c9b",
+      "synchronous": "FULL"
+    }
+  ],
+  "summary": [
+    {
+      "transaction": "single",
+      "journal": "DELETE",
+      "mean_seconds": 1.89145651999861,
+      "stdev_seconds": 0.20303619991692093,
+      "throughput": 158.60792824369045,
+      "cpu_percent": 42.20455059969018,
+      "speedup": 1.0
+    },
+    {
+      "transaction": "batch",
+      "journal": "DELETE",
+      "mean_seconds": 0.006508760002907366,
+      "stdev_seconds": 0.000890261577384619,
+      "throughput": 46091.728665059774,
+      "cpu_percent": 0.0,
+      "speedup": 290.6016690051138
+    },
+    {
+      "transaction": "single",
+      "journal": "WAL",
+      "mean_seconds": 0.388043839999591,
+      "stdev_seconds": 0.09898920763545366,
+      "throughput": 773.1085229965671,
+      "cpu_percent": 30.305411021266828,
+      "speedup": 4.874337188294507
+    },
+    {
+      "transaction": "batch",
+      "journal": "WAL",
+      "mean_seconds": 0.00568459999631159,
+      "stdev_seconds": 0.0024408328536595497,
+      "throughput": 52774.161804639334,
+      "cpu_percent": 0.0,
+      "speedup": 332.73344144282225
+    }
+  ],
+  "notes": "Wall time includes checkpoint and close; CPU time includes checkpoint and close. FULL synchronous; databases reopened and rows checked."
+}

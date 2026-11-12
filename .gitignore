@@ -1,0 +1,14 @@
+﻿__pycache__/
+*.pyc
+*.db
+bolt-experiment/build/
+bolt-experiment/results/perf.data*
+bolt-experiment/results/profile.fdata
+bolt-experiment/results/reference.txt
+runs/
+tmp-mpl/
+*.log
+tmp-*/
+tmp-*
+report-preview.html
+reproduce-check.txt
